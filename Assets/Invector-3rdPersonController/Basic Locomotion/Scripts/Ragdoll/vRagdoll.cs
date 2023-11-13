@@ -281,7 +281,7 @@ namespace Invector.vCharacterController
                 return;
             }
 
-            if (!updateBehaviour && animator.updateMode == AnimatorUpdateMode.AnimatePhysics)
+            if (!updateBehaviour && animator.updateMode == AnimatorUpdateMode.Fixed)
             {
                 return;
             }
